@@ -1,0 +1,13 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "openai-workers-ai",
+	"main": "src/index.ts",
+	"compatibility_flags": ["nodejs_compat"],
+	"compatibility_date": "2025-03-06",
+	"observability": {
+		"enabled": true
+	},
+	"ai": {
+		"binding": "AI"
+	}
+}
